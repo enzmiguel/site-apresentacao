@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;500&display=swap');
+
+        
+        a {
+          display: inline-block; 
+        }
+
+        .box {
+            background-color: rgba(30, 97, 126, 0.8); /* Cor de fundo com opacidade */
+            border: 1px solid rgba(204, 204, 204, 0.8);
+            padding: 20px;
+            width: 300px;
+            margin: 20px;
+            border-radius: 20px;
+            ;
+        }
+
+        .box li {
+            margin-bottom: 8px;
+        }
+        
+
+        body {
+          background-color: black;
+        }
+        
+        * {
+            font-family: 'Raleway', sans-serif;
+            box-sizing: border-box;
+            margin: 0;
+            color: white;
+        }
+
+          body {
+              display: block;
+              margin: 8px;
+          }
+
+          head {
+            display: none;
+          }
+
+        .banner {  
+          background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url(../images/banner.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+          height: 600px;
+          padding-top: 60px;
+          border-bottom: 1px solid #33A8DB80;
+        }
+
+        .banner .banner-content {
+          text-align: center;
+        }
+
+        .banner .banner-content h1 {
+          color: #31A8DD;
+        }
+
+        .banner .banner-content button {
+          color: #31A8DD;
+          font-size: x-large;
+          padding: 16px 30px;
+          background-color: #0e242e80;
+          border-color: #3BA1CD;
+          margin: 5px;
+          cursor: pointer;
+        }
+
+        #presentation {
+          margin: 100px;
+        }
+
+        #presentation-content {
+          display: flex;
+          justify-content: center;
+        }
+
+        .box {
+          margin: 0 10px; 
+        }
+
+        #presentation #titulo {
+          color:#31A8DD;
+          margin-bottom: 20px;
+          text-align: center;
+        }
+
+        #eng-dados {
+          height: 560px;
+          background-size: cover;
+          background-image: url(../images/banner_exibicao.png);
+          background-attachment: fixed;
+          border-top: 1px solid #33A8DB80;
+          border-bottom: 1px solid #33A8DB80;
+          padding: 200px;
+          margin: 50px 0px 50px;
+        }
+        /*hue 305*/
+        #eng-dados h2 {
+          display: block;
+          margin-block-start: 1em;
+          margin-block-end: 1em;
+          margin-inline-start: 0px;
+          margin-inline-end: 0px;
+          font-weight: 900;
+          font-size: 2.5rem;
+          max-width: 250px;
+          text-shadow: 3px 2px #33A8DB;
+          }
+
+          #certificados {
+            margin: 100px 0px 100px;
+          }
+
+          #certificados #title{
+            color:#31A8DD;
+            margin-bottom: 20px;
+            text-align: center;
+          }
+
+          #certificados-content {
+            margin: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+
+          #certificados-content img {
+            width: 30%;
+          }
+
+          footer p {
+            text-align: center;
+          }
